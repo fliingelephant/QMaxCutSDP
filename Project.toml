@@ -1,0 +1,4 @@
+name = "QMaxCutSDP"
+uuid = "1064ef06-6572-4852-94f8-171f0dcf4d3b"
+authors = ["周唤海 <albus.zhouhh@gmail.com>"]
+version = "0.1.0"
