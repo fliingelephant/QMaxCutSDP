@@ -2,3 +2,25 @@ name = "QMaxCutSDP"
 uuid = "1064ef06-6572-4852-94f8-171f0dcf4d3b"
 authors = ["周唤海 <albus.zhouhh@gmail.com>"]
 version = "0.1.0"
+
+[deps]
+Arpack = "7d9fca2a-8960-54d3-9f78-7d1dccf2cb97"
+DelimitedFiles = "8bb1440f-4735-579b-a4ab-409b98df4dab"
+Graphs = "86223c79-3864-5bf0-83f7-82e725a168b6"
+JuMP = "4076af6c-e467-56ae-b986-b466b2749572"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+Mosek = "6405355b-0ac2-5fba-af84-adbd65488c0e"
+MosekTools = "1ec41992-ff65-5c91-ac43-2df89e9693a4"
+SimpleWeightedGraphs = "47aef6b3-ad0c-573a-a1e2-d07658019622"
+SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
+
+[compat]
+Arpack = "0.5.4"
+DelimitedFiles = "1.9.1"
+Graphs = "1.12.0"
+JuMP = "1.24.0"
+LinearAlgebra = "1.11.0"
+Mosek = "10.2.0"
+MosekTools = "0.15.5"
+SimpleWeightedGraphs = "1.4.0"
+SparseArrays = "1.11.0"

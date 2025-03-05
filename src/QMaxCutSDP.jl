@@ -1,5 +1,6 @@
 module QMaxCutSDP
 
-greet() = print("Hello World!")
+include("basis.jl")
+include("sdp.jl")
 
 end # module QMaxCutSDP
